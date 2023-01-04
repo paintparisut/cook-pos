@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		CB1CC3442965CC5500C60C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CC3432965CC5500C60C88 /* AppDelegate.swift */; };
 		CB1CC3462965CC5500C60C88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CC3452965CC5500C60C88 /* SceneDelegate.swift */; };
-		CB1CC3482965CC5500C60C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CC3472965CC5500C60C88 /* ViewController.swift */; };
 		CB1CC34B2965CC5500C60C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1CC3492965CC5500C60C88 /* Main.storyboard */; };
 		CB1CC34D2965CC5700C60C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1CC34C2965CC5700C60C88 /* Assets.xcassets */; };
 		CB1CC3502965CC5700C60C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1CC34E2965CC5700C60C88 /* LaunchScreen.storyboard */; };
 		CB1CC35B2965CC5700C60C88 /* cook_posTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CC35A2965CC5700C60C88 /* cook_posTests.swift */; };
 		CB1CC3652965CC5700C60C88 /* cook_posUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CC3642965CC5700C60C88 /* cook_posUITests.swift */; };
 		CB1CC3672965CC5700C60C88 /* cook_posUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CC3662965CC5700C60C88 /* cook_posUITestsLaunchTests.swift */; };
+		CB1CC3782965CCC600C60C88 /* Services in Resources */ = {isa = PBXBuildFile; fileRef = CB1CC3732965CCC500C60C88 /* Services */; };
+		CB1CC3792965CCC600C60C88 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = CB1CC3742965CCC500C60C88 /* Utilities */; };
+		CB1CC37A2965CCC600C60C88 /* View in Resources */ = {isa = PBXBuildFile; fileRef = CB1CC3752965CCC500C60C88 /* View */; };
+		CB1CC37B2965CCC600C60C88 /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = CB1CC3762965CCC500C60C88 /* ViewModel */; };
+		CB1CC37C2965CCC600C60C88 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = CB1CC3772965CCC600C60C88 /* Model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		CB1CC3402965CC5500C60C88 /* cook-pos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cook-pos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1CC3432965CC5500C60C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB1CC3452965CC5500C60C88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB1CC3472965CC5500C60C88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB1CC34A2965CC5500C60C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB1CC34C2965CC5700C60C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB1CC34F2965CC5700C60C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		CB1CC3602965CC5700C60C88 /* cook-posUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cook-posUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1CC3642965CC5700C60C88 /* cook_posUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cook_posUITests.swift; sourceTree = "<group>"; };
 		CB1CC3662965CC5700C60C88 /* cook_posUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cook_posUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB1CC3732965CCC500C60C88 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
+		CB1CC3742965CCC500C60C88 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
+		CB1CC3752965CCC500C60C88 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		CB1CC3762965CCC500C60C88 /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
+		CB1CC3772965CCC600C60C88 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,13 @@
 		CB1CC3422965CC5500C60C88 /* cook-pos */ = {
 			isa = PBXGroup;
 			children = (
+				CB1CC3772965CCC600C60C88 /* Model */,
+				CB1CC3732965CCC500C60C88 /* Services */,
+				CB1CC3742965CCC500C60C88 /* Utilities */,
+				CB1CC3752965CCC500C60C88 /* View */,
+				CB1CC3762965CCC500C60C88 /* ViewModel */,
 				CB1CC3432965CC5500C60C88 /* AppDelegate.swift */,
 				CB1CC3452965CC5500C60C88 /* SceneDelegate.swift */,
-				CB1CC3472965CC5500C60C88 /* ViewController.swift */,
 				CB1CC3492965CC5500C60C88 /* Main.storyboard */,
 				CB1CC34C2965CC5700C60C88 /* Assets.xcassets */,
 				CB1CC34E2965CC5700C60C88 /* LaunchScreen.storyboard */,
@@ -231,9 +243,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1CC3782965CCC600C60C88 /* Services in Resources */,
 				CB1CC3502965CC5700C60C88 /* LaunchScreen.storyboard in Resources */,
+				CB1CC37B2965CCC600C60C88 /* ViewModel in Resources */,
 				CB1CC34D2965CC5700C60C88 /* Assets.xcassets in Resources */,
+				CB1CC3792965CCC600C60C88 /* Utilities in Resources */,
 				CB1CC34B2965CC5500C60C88 /* Main.storyboard in Resources */,
+				CB1CC37C2965CCC600C60C88 /* Model in Resources */,
+				CB1CC37A2965CCC600C60C88 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1CC3482965CC5500C60C88 /* ViewController.swift in Sources */,
 				CB1CC3442965CC5500C60C88 /* AppDelegate.swift in Sources */,
 				CB1CC3462965CC5500C60C88 /* SceneDelegate.swift in Sources */,
 			);
